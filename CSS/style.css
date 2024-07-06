@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #000 ;
+    background-image: url(../images/fondito3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MARU welcome */
+
+section#maru{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#maru h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* SECTION MARU TALLERES */
+
+section#maru2{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#maru2 h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* GALERIA */
+
+.container_galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+}
+
+.container_galeria .encabezado {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+
+.container_galeria .encabezado h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.container_galeria .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+      
+}
+
+.container_galeria .box .columna {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    
+    
+
+}
+
+.container_galeria .box img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+/* GALERIA RESPONSIVE */
+
+@media only screen and (max-width: 769px){    
+
+
+.container_galeria .box {
+    flex-direction: column;}
+}
+
+.container_galeria .box .columna {
+    width: 100%;
+}
+
+
+
+/* PRUEBA FORM */
+
+.form {
+padding-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* FOOTER */
+
+
+
+
+.footer {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    position: relative;
+    height: 60px;
+    margin-top: -60px;
+    
+    
+}
+
+
+.fa-instagram {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa-instagram:hover {
+    color: #f638e9;
+   }
+
+.fa-tiktok {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa-tiktok:hover {
+    color: #f638e9;
+   }
+
+.fa-youtube {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa-youtube:hover {
+    color: #f638e9;
+   }
