@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    position: relative;
+    height: 60px;
+    margin-top: -60px;
+    
+    
+}
+
+
+.fa-instagram {
+    font-size: 20px;
+    color: $secondaryColor;
+}
+
+.fa-instagram:hover {
+    color: $mainColor;
+   }
+
+.fa-tiktok {
+    font-size: 20px;
+    color: $secondaryColor
+}
+
+.fa-tiktok:hover {
+    color: $mainColor;
+   }
+
+.fa-youtube {
+    font-size: 20px;
+    color: $secondaryColor;
+}
+
+.fa-youtube:hover {
+    color: $mainColor;
+   }

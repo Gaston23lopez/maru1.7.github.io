@@ -5,6 +5,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+*::selection {
+    
+    color: #f638e9;
+
+}
+/*lo de arriba se puede borrar, por las dudas todavia no*/
+
+
 body {
     height: 100vh;
     background-color: #000 ;
@@ -24,24 +32,11 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MARU welcome */
 
-section#maru{
+
+
+section#maru {
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -58,7 +53,7 @@ section#maru{
 
 /* SECTION MARU TALLERES */
 
-section#maru2{
+section#maru2 {
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -77,15 +72,9 @@ section#maru2{
 
 
 
-
-
-
-
-
-
 /* GALERIA */
 
-.container_galeria {
+.container_galeria { 
     display: flex;
     flex-direction: column;
     justify-content: center;

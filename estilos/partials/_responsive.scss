@@ -1,0 +1,12 @@
+/* GALERIA RESPONSIVE */
+
+@media only screen and (max-width: 769px){    
+
+
+    .container_galeria .box {
+        flex-direction: column;}
+    }
+    
+    .container_galeria .box .columna {
+        width: 100%;
+    }

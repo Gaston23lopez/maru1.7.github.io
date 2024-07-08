@@ -1,0 +1,8 @@
+@import "./partials/variables"; /*siempre arriba!*/
+@import "./partials/reset"; /*siempre entre variables y el resto*/
+@import "./partials/body";
+@import "./partials/sections";
+@import "./partials/galeria";
+@import "./partials/form";
+@import "./partials/footer";
+@import "./partials/responsive"; /*media queries siempre abajo*/
